@@ -68,9 +68,12 @@ It starts by itself on boot. Open `http://<pi-address>:8080` from any computer, 
 
 ![The simple client page](img/client.png)
 
-A simple page for your client at `http://<controller>:8080/simple`: ALL ON / ALL OFF, and ON / OFF / SHUTTER for each group.
+A panel for your client at `http://<controller>:8080/simple`, kept apart from the engineer view.
 
-- **Set a client PIN** in SETTINGS → CLIENT PAGE. It opens this page only, never the full control room.
+- **Group tiles:** tap the left side to switch a group on, hold it to switch off, and tap the right side to close or open the shutter.
+- **ALL ON / ALL OFF**, **BLACKOUT** (every shutter closed) and **PANEL LOCK** (ignores taps until held for 2 seconds).
+- **No way to the engineer view.** On a screen in the room, press **CLIENT VIEW** in the dock. With a login PIN, that screen then needs the engineer PIN to return.
+- **Client PIN** (SETTINGS → CLIENT PAGE): lets other devices open the panel only.
 - **Every press is logged** with where it came from.
 
 ## 6. History and post-show report
